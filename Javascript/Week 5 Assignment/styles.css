@@ -1,0 +1,28 @@
+*{
+  background-color: wheat;
+}
+h1{
+text-align: center;
+text-decoration: underline;
+text-decoration-color: blue;
+color: rgba(0, 0, 0, 0.863);
+}
+p{
+  display: flex;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  text-wrap: none;
+
+}
+.editable{
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  background-color: blue;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  color: aqua;
+}
