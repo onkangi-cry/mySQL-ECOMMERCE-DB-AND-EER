@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Do hard things in a simple way</title>
+  </head>
+  <body>
+    <!-- To create a form we have to first define it -->
+     <form>
+      <div>
+        <!-- For is what the computer recognizes as human recognizes label -->
+        <!-- id is a specific thing a computer will look out for -->
+        <!--name is a specific place where we send our info  -->
+        <label for="fname">First name:</label>
+        <input type="text",id="fname",name="fname",placeholder="aaaaa" required>
+      </div>
+      <br>
+      <div>
+        <label for="lname">last name:</label>
+        <input type="text",id="lname",name="lname",placeholder="aaaaa" required>
+      </div>
+        <br>
+
+        <div>
+          <label for="DOB">Date of Birth:</label>
+          <input type="date",id="DOB",name="DOB",placeholder="dd/mm/yy" required>
+      </div>
+      <!-- According to my understanding input type is just like adding a button -->
+      <br>
+      <div>
+        <label for="pass">Password:</label>
+        <input type="password",id="pass",name="pass",maxlength=12 required>
+
+      </div>
+     
+      <br>
+      <div>
+        <label for="mail">Email</label>
+        <input type="email",id="mail",name="mail",placeholder="adadad@gmail.com" required>
+      </div>
+      
+      <br>
+      <div>
+        <label for="phone">Phone Number:</label>
+        <input type="tel",id="phone",name="phone",placeholder="07xxxxxxx34" required>
+      </div>
+      
+      <br>
+      <div>
+        <label for="Mr">Mr</label>
+        <!-- The name ensures we dont select more than one -->
+        <input type="radio",name="title",id="Mr",value="Mr">
+        <br>
+        <label for="Mrs">Mrs</label>
+        <input type="radio",name="title",id="Mrs",value="Mrs">
+        <br>
+        <label for="pHd">pHd</label>
+        <input type="radio", name="title",id="pHd",value="PHd">
+      </div>
+      
+      <br>
+      <div>
+        <label for="payment">Payment:</label>
+        <select id="payment",name="payment">
+          <option value="visa">Visa</option>
+          <option value="mastercard">Mastercard</option>
+          <option value="giftcard">Giftcard</option>
+        </select>
+      </div>
+      <br>
+      <div>
+        <label for="subscribe">Subscribe:</label>
+        <input type="Checkbox",id="subscribe",name="subscribe">
+      </div>
+      <div>
+        <input type="reset">
+      </div>
+     
+      <br>
+      <div>
+        <input type="reset">
+
+      </div>
+      
+     </form>
+  </body>
+</html>

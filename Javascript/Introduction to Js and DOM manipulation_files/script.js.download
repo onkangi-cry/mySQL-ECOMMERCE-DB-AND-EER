@@ -1,0 +1,10 @@
+// Changing the text dynamically
+document.getElementsByClassName("editable").addEventListener("click",function(){document.getElementsById("description").textContent="Think of Javascript as what makes our website super fun to navigate";});
+// css via Javascript
+document.getElementById("box").styles.color="red";
+// Add remove an element when button is clicked
+document.getElementById("button").addEventListener("click" ,function(){box=document.getElementById("box");
+  box.classList.toggle("hidden");
+});
+
+const description=document.getElementById("description")

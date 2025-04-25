@@ -1,0 +1,42 @@
+Functions are blocks of reusable codes
+$ Sign is used as an acessor
+To have a function we can do the following
+a)function function_name(parameters:what is going to be here)
+parameters are variables listed in a function definition
+Arguments are values passed to the function when it is called.
+b)function logic
+c)return value which is optional
+return states how  a function should display when called.Without it it will display as undefined,
+For instance
+function greet(name){
+  return 'Hello ,${name}!
+}
+console.log(greet('Eddy'))
+
+An example of a fully functional function
+function greet(name){
+  return greet ${name}
+}
+greet('Anderson')
+
+
+function sum(a,b){
+return a+b
+}
+value=sum(1,2)
+console.log(value)
+After return there is nothing else ever gonna run.
+ 
+
+
+ LOOPS
+ This is what ou have been doing wrong Onkangi
+ This is how  a for loop is written
+ for (initialExpression[we can use let];condition[we compare it to a value with the number of times we want it to run];increment expression){
+  statement[console.log()]
+ }
+ For instance
+
+ for (let i=0;i<5;i++){
+  console.log("Hello World")
+ }

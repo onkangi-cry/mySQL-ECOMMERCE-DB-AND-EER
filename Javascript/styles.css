@@ -1,0 +1,12 @@
+ #changeMe{
+  color:blue;
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid black;
+  background-color: lightblue;
+ }
+ body{
+  text-align: center;
+ }
